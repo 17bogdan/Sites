@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google My Business Setup - Ghid Complet DrainMaster Express</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            line-height: 1.6;
+            background: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .step { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px; 
+            margin: 20px 0; 
+            border-radius: 10px;
+            position: relative;
+        }
+        .step-number {
+            background: rgba(255,255,255,0.2);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .urgent { 
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 15px; 
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 5px solid #c0392b;
+        }
+        .success { 
+            background: linear-gradient(135deg, #00b894, #00a085);
+            color: white;
+            padding: 15px; 
+            border-radius: 8px;
+            border-left: 5px solid #27ae60;
+        }
+        .info {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #2980b9;
+        }
+        .checklist {
+            background: #f1f2f6;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .checklist input[type="checkbox"] {
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+        .screenshot-placeholder {
+            background: #e9ecef;
+            border: 2px dashed #6c757d;
+            padding: 40px;
+            text-align: center;
+            border-radius: 8px;
+            margin: 15px 0;
+            color: #6c757d;
+        }
+        .form-example {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .warning {
+            background: #fdcb6e;
+            color: #2d3436;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            border-left: 4px solid #e17055;
+        }
+        .tip {
+            background: #a29bfe;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            border-left: 4px solid #6c5ce7;
+        }
+        .button-link {
+            display: inline-block;
+            background: #00b894;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 10px 5px;
+            transition: all 0.3s ease;
+        }
+        .button-link:hover {
+            background: #00a085;
+            transform: translateY(-2px);
+        }
+        .progress-bar {
+            background: #e9ecef;
+            height: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .progress-fill {
+            background: linear-gradient(90deg, #00b894, #00a085);
+            height: 100%;
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Google My Business Setup - DrainMaster Express</h1>
+        
+        <div class="urgent">
+            <h2>🚨 DE CE ESTE URGENT?</h2>
+            <p><strong>Google My Business este factorul #1 pentru căutările locale!</strong></p>
+            <ul>
+                <li>📍 <strong>80% din căutări</strong> pentru servicii sunt locale</li>
+                <li>🎯 Clienții caută "desfundari canalizari lângă mine"</li>
+                <li>⭐ Fără GMB, ești <strong>INVIZIBIL</strong> în Google Maps</li>
+                <li>📞 GMB generează <strong>apeluri directe</strong> de la clienți</li>
+            </ul>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressBar"></div>
+        </div>
+        <p style="text-align: center; color: #666;">Progres completare: <span id="progressText">0%</span></p>
+
+        <div class="step">
+            <div class="step-number">1</div>
+            <h2>🌐 Accesează Google My Business</h2>
+            <p><strong>Link direct:</strong></p>
+            <a href="https://business.google.com" target="_blank" class="button-link">
+                🔗 Deschide Google My Business
+            </a>
+            
+            <div class="checklist">
+                <h3>✅ Verifică înainte:</h3>
+                <label><input type="checkbox" onchange="updateProgress()"> Ai cont Gmail pentru business</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Ești conectat cu contul corect</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Ai la îndemână toate informațiile companiei</label>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">2</div>
+            <h2>🏢 Creează Profilul de Business</h2>
+            
+            <div class="form-example">
+                <h3>📝 Informații de completat EXACT așa:</h3>
+                
+                <p><strong>Numele companiei:</strong></p>
+                <code>DrainMaster Express</code>
+                
+                <p><strong>Categoria principală:</strong></p>
+                <code>Plumber</code> sau <code>Drain cleaning service</code>
+                
+                <div class="tip">
+                    💡 <strong>Tip:</strong> Caută "plumber" în română și selectează categoria care apare
+                </div>
+                
+                <p><strong>Categorii secundare (adaugă toate):</strong></p>
+                <ul>
+                    <li>Septic tank service</li>
+                    <li>Emergency plumber</li>
+                    <li>Sewer cleaning service</li>
+                    <li>Drainage contractor</li>
+                </ul>
+            </div>
+
+            <div class="checklist">
+                <label><input type="checkbox" onchange="updateProgress()"> Am completat numele companiei</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am selectat categoria principală</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am adăugat categorii secundare</label>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">3</div>
+            <h2>📍 Adaugă Locația</h2>
+            
+            <div class="warning">
+                ⚠️ <strong>ATENȚIE:</strong> Adresa TREBUIE să fie reală! Google verifică prin poștă.
+            </div>
+            
+            <div class="form-example">
+                <h3>📮 Exemplu adresă (adaptează la adresa ta reală):</h3>
+                <p><strong>Strada:</strong> Strada Victoriei 15</p>
+                <p><strong>Orașul:</strong> Târgu-Jiu</p>
+                <p><strong>Județul:</strong> Gorj</p>
+                <p><strong>Codul poștal:</strong> 210103</p>
+                <p><strong>Țara:</strong> România</p>
+            </div>
+
+            <div class="info">
+                <h3>🏠 Opțiuni pentru adresă:</h3>
+                <p><strong>Dacă ai sediu fizic:</strong> Folosește adresa reală</p>
+                <p><strong>Dacă lucrezi de acasă:</strong> Poți ascunde adresa și afișa doar zona</p>
+                <p><strong>Dacă te deplasezi la clienți:</strong> Selectează "Îmi vizitez clienții"</p>
+            </div>
+
+            <div class="checklist">
+                <label><input type="checkbox" onchange="updateProgress()"> Am introdus adresa completă</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am setat zona de deservire</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am configurat opțiunile de vizibilitate</label>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">4</div>
+            <h2>📞 Informații de Contact</h2>
+            
+            <div class="form-example">
+                <h3>📱 Date de contact:</h3>
+                <p><strong>Telefon principal:</strong> +40 123 456 789</p>
+                <p><strong>Website:</strong> https://your-domain.ro</p>
+                <p><strong>Email (opțional):</strong> info@drainmaster.ro</p>
+            </div>
+
+            <div class="tip">
+                💡 <strong>Sfat:</strong> Folosește același număr de telefon pe site și în toate directoarele!
+            </div>
+
+            <div class="checklist">
+                <label><input type="checkbox" onchange="updateProgress()"> Am adăugat numărul de telefon</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am introdus website-ul</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am verificat că datele sunt corecte</label>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">5</div>
+            <h2>⏰ Program de Lucru</h2>
+            
+            <div class="form-example">
+                <h3>🕐 Setează programul:</h3>
+                <p><strong>Pentru servicii urgență 24/7:</strong></p>
+                <ul>
+                    <li>Luni - Duminică: 00:00 - 23:59</li>
+                    <li>Bifează "Deschis 24 de ore"</li>
+                </ul>
+                
+                <p><strong>Sau program normal + urgențe:</strong></p>
+                <ul>
+                    <li>Luni - Vineri: 08:00 - 18:00</li>
+                    <li>Sâmbătă: 08:00 - 16:00</li>
+                    <li>Duminică: Închis</li>
+                    <li>+ Adaugă în descriere: "Urgențe 24/7"</li>
+                </ul>
+            </div>
+
+            <div class="checklist">
+                <label><input type="checkbox" onchange="updateProgress()"> Am setat programul de lucru</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am menționat disponibilitatea pentru urgențe</label>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">6</div>
+            <h2>📝 Descrierea Companiei</h2>
+            
+            <div class="form-example">
+                <h3>✍️ Exemplu descriere optimizată:</h3>
+                <textarea readonly style="width: 100%; height: 120px; padding: 10px; border-radius: 5px;">
+DrainMaster Express - servicii profesionale de desfundari canalizari si vidanjare fose septice in Targu-Jiu si judetul Gorj. 
+
+✅ Interventii rapide 24/7
+✅ Echipamente moderne si eficiente  
+✅ Tehnicienii autorizati si experimentati
+✅ Preturi corecte si transparente
+✅ Garantie pentru toate lucrarile
+
+Deservim: Targu-Jiu, Motru, Rovinari, Turceni, Tismana, Novaci, Bumbesti-Jiu si toate comunele din Gorj.
+
+Suna acum pentru o interventie rapida: +40 123 456 789
+                </textarea>
+            </div>
+
+            <div class="tip">
+                💡 <strong>Include cuvinte cheie:</strong> desfundari, canalizari, vidanjare, Gorj, Targu-Jiu
+            </div>
+
+            <div class="checklist">
+                <label><input type="checkbox" onchange="updateProgress()"> Am scris descrierea companiei</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am inclus cuvintele cheie importante</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am menționat toate orașele deservite</label>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">7</div>
+            <h2>📸 Adaugă Poze</h2>
+            
+            <div class="info">
+                <h3>📷 Tipuri de poze necesare:</h3>
+                <ul>
+                    <li><strong>Logo/Profil:</strong> Logo-ul companiei (square, min 720x720px)</li>
+                    <li><strong>Cover:</strong> Poză cu echipa/echipamente (1080x608px)</li>
+                    <li><strong>Echipamente:</strong> 5-10 poze cu utilajele tale</li>
+                    <li><strong>Echipa:</strong> Poze cu tehnicienii la lucru</li>
+                    <li><strong>Vehicule:</strong> Mașinile/dubele de serviciu</li>
+                    <li><strong>Lucrări:</strong> Before/after din intervenții</li>
+                </ul>
+            </div>
+
+            <div class="warning">
+                ⚠️ <strong>IMPORTANT:</strong> Folosește doar poze reale cu echipamentele tale! Nu folosi poze de pe internet.
+            </div>
+
+            <div class="checklist">
+                <label><input type="checkbox" onchange="updateProgress()"> Am adăugat logo-ul companiei</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am încărcat poze cu echipamentele</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am adăugat poze cu echipa la lucru</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am încărcat poze cu vehiculele</label>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">8</div>
+            <h2>✅ Verificarea Profilului</h2>
+            
+            <div class="urgent">
+                <h3>🚨 PASUL CRITIC!</h3>
+                <p>Fără verificare, profilul NU va apărea în căutări!</p>
+            </div>
+
+            <div class="info">
+                <h3>📮 Metode de verificare:</h3>
+                <p><strong>1. Prin poștă (recomandat):</strong></p>
+                <ul>
+                    <li>Google trimite o carte poștală cu cod</li>
+                    <li>Durează 5-14 zile</li>
+                    <li>Introduci codul în GMB</li>
+                </ul>
+                
+                <p><strong>2. Prin telefon (dacă e disponibil):</strong></p>
+                <ul>
+                    <li>Primești un apel automat</li>
+                    <li>Verificare instantanee</li>
+                </ul>
+                
+                <p><strong>3. Prin email (rar disponibil):</strong></p>
+                <ul>
+                    <li>Primești un email cu cod</li>
+                    <li>Verificare rapidă</li>
+                </ul>
+            </div>
+
+            <div class="checklist">
+                <label><input type="checkbox" onchange="updateProgress()"> Am solicitat verificarea</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am ales metoda de verificare</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am confirmat adresa pentru poștă</label>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">9</div>
+            <h2>🎯 Optimizări Avansate</h2>
+            
+            <div class="form-example">
+                <h3>🔧 Setări avansate de configurat:</h3>
+                
+                <p><strong>Atribute speciale:</strong></p>
+                <ul>
+                    <li>✅ Servicii de urgență</li>
+                    <li>✅ Disponibil 24/7</li>
+                    <li>✅ Plăți cu cardul</li>
+                    <li>✅ Estimări gratuite</li>
+                    <li>✅ Tehnicienii licențiați</li>
+                </ul>
+                
+                <p><strong>Servicii (adaugă toate):</strong></p>
+                <ul>
+                    <li>Desfundare canalizări</li>
+                    <li>Vidanjare fose septice</li>
+                    <li>Curățare conducte</li>
+                    <li>Reparații canalizări</li>
+                    <li>Servicii urgență 24/7</li>
+                    <li>Inspecție cu cameră</li>
+                </ul>
+            </div>
+
+            <div class="checklist">
+                <label><input type="checkbox" onchange="updateProgress()"> Am adăugat atributele speciale</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am listat toate serviciile</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am configurat opțiunile de plată</label>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">10</div>
+            <h2>🚀 Lansarea și Promovarea</h2>
+            
+            <div class="success">
+                <h3>🎉 Felicitări! Profilul este gata!</h3>
+                <p>Acum urmează promovarea pentru a obține vizibilitate maximă.</p>
+            </div>
+
+            <div class="info">
+                <h3>📈 Acțiuni imediate după verificare:</h3>
+                <ol>
+                    <li><strong>Publică primul post:</strong> "Suntem acum pe Google! Servicii desfundări 24/7 în Gorj"</li>
+                    <li><strong>Solicită recenzii:</strong> Contactează 5 clienți mulțumiți</li>
+                    <li><strong>Răspunde la întrebări:</strong> Monitorizează Q&A section</li>
+                    <li><strong>Postează regulat:</strong> Oferte, sfaturi, poze cu lucrări</li>
+                </ol>
+            </div>
+
+            <div class="checklist">
+                <label><input type="checkbox" onchange="updateProgress()"> Am publicat primul post</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am solicitat primele recenzii</label><br>
+                <label><input type="checkbox" onchange="updateProgress()"> Am configurat notificările</label>
+            </div>
+        </div>
+
+        <div class="success">
+            <h2>🏆 MISIUNE COMPLETĂ!</h2>
+            <p><strong>Profilul Google My Business este acum activ!</strong></p>
+            
+            <h3>📊 Ce să aștepți:</h3>
+            <ul>
+                <li><strong>1-3 zile:</strong> Profilul apare în Google Maps</li>
+                <li><strong>1-2 săptămâni:</strong> Primele apariții în căutări</li>
+                <li><strong>1 lună:</strong> Vizibilitate completă pentru căutări locale</li>
+            </ul>
+            
+            <h3>📱 Link-uri utile:</h3>
+            <a href="https://business.google.com" target="_blank" class="button-link">Gestionează GMB</a>
+            <a href="https://support.google.com/business" target="_blank" class="button-link">Suport Google</a>
+        </div>
+
+        <div class="tip">
+            💡 <strong>Sfat final:</strong> Salvează acest ghid și verifică GMB săptămânal pentru actualizări și răspunsuri la recenzii!
+        </div>
+    </div>
+
+    <script>
+        function updateProgress() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const checked = document.querySelectorAll('input[type="checkbox"]:checked');
+            const progress = (checked.length / checkboxes.length) * 100;
+            
+            document.getElementById('progressBar').style.width = progress + '%';
+            document.getElementById('progressText').textContent = Math.round(progress) + '%';
+            
+            if (progress === 100) {
+                document.getElementById('progressText').textContent = '100% - COMPLET! 🎉';
+            }
+        }
+        
+        // Initialize progress
+        updateProgress();
+    </script>
+</body>
+</html>

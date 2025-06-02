@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politica de Confidențialitate - DrainMaster Express</title>
+    <meta name="description" content="Politica de confidențialitate DrainMaster Express - Cum protejăm datele dumneavoastră personale conform GDPR">
+    <meta name="robots" content="index, follow">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <style>
+        .privacy-header {
+            background: white;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 1.5rem 0;
+        }
+        
+        .privacy-nav {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .back-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: transparent;
+            border: 1px solid #d1d5db;
+            border-radius: 0.375rem;
+            text-decoration: none;
+            color: #374151;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+        
+        .back-btn:hover {
+            background: #f9fafb;
+        }
+        
+        .privacy-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .privacy-title i {
+            color: #2563eb;
+        }
+        
+        .privacy-content {
+            max-width: 4xl;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            background: #f9fafb;
+            min-height: 100vh;
+        }
+        
+        .privacy-card {
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .card-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .card-content {
+            padding: 1.5rem;
+        }
+        
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .privacy-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.25rem 0.75rem;
+            background: #2563eb;
+            color: white;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
+        .privacy-badge.outline {
+            background: transparent;
+            color: #374151;
+            border: 1px solid #d1d5db;
+        }
+        
+        .contact-grid {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: 1fr;
+        }
+        
+        .contact-info {
+            background: #f9fafb;
+            padding: 1rem;
+            border-radius: 0.375rem;
+        }
+        
+        .contact-info h4 {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+        }
+        
+        .contact-item i {
+            color: #2563eb;
+            width: 1rem;
+            height: 1rem;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.875rem;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .data-table th {
+            font-weight: 600;
+            background: #f9fafb;
+        }
+        
+        .rights-grid {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: 1fr;
+        }
+        
+        .right-item {
+            border: 1px solid #e5e7eb;
+            border-radius: 0.375rem;
+            padding: 0.75rem;
+        }
+        
+        .right-item h4 {
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .right-item p {
+            font-size: 0.75rem;
+            color: #6b7280;
+        }
+        
+        .highlight-box {
+            background: #dbeafe;
+            border: 1px solid #93c5fd;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .highlight-box p {
+            font-size: 0.875rem;
+            color: #1e40af;
+            margin: 0;
+        }
+        
+        @media (min-width: 768px) {
+            .contact-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .rights-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="privacy-header">
+        <div class="container">
+            <div class="privacy-nav">
+                <a href="index.html" class="back-btn">
+                    <i data-lucide="arrow-left"></i>
+                    Înapoi la Site
+                </a>
+                <div class="privacy-title">
+                    <i data-lucide="shield"></i>
+                    <h1>Politica de Confidențialitate</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="privacy-content">
+        <div class="container">
+            <!-- Introduction -->
+            <div class="privacy-card">
+                <div class="card-header">
+                    <div class="badge-container">
+                        <span class="privacy-badge">
+                            <i data-lucide="shield"></i>
+                            GDPR Compliant
+                        </span>
+                        <span class="privacy-badge outline">
+                            Actualizat: <span id="currentDate"></span>
+                        </span>
+                    </div>
+                    <h2>DrainMaster Express - Politica de Confidențialitate</h2>
+                </div>
+                <div class="card-content">
+                    <p>DrainMaster Express respectă confidențialitatea dumneavoastră și se angajează să protejeze datele personale pe care ni le furnizați. Această politică explică cum colectăm, utilizăm și protejăm informațiile dumneavoastră în conformitate cu Regulamentul General privind Protecția Datelor (GDPR).</p>
+                    <div style="background: #dbeafe; padding: 1rem; border-radius: 0.5rem; margin-top: 1rem;">
+                        <p style="margin: 0; font-size: 0.875rem; color: #1e40af;">
+                            <strong>Ultima actualizare:</strong> <span id="currentDate2"></span> | <strong>Versiunea:</strong> 2.0
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Company Information -->
+            <div class="privacy-card">
+                <div class="card-header">
+                    <h2>
+                        <i data-lucide="users"></i>
+                        Informații despre Operator
+                    </h2>
+                </div>
+                <div class="card-content">
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <h4>Operator de Date:</h4>
+                            <p>DrainMaster Express SRL</p>
+                            <p>CUI: RO12345678</p>
+                            <p>Nr. Reg. Com.: J18/123/2024</p>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Contact DPO:</h4>
+                            <div class="contact-item">
+                                <i data-lucide="mail"></i>
+                                <span>dpo@drainmaster.ro</span>
+                            </div>
+                            <div class="contact-item">
+                                <i data-lucide="phone"></i>
+                                <span>+40 123 456 789</span>
+                            </div>
+                            <div class="contact-item">
+                                <i data-lucide="map-pin"></i>
+                                <span>Târgu-Jiu, Gorj, România</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Collection -->
+            <div class="privacy-card">
+                <div class="card-header">
+                    <h2>
+                        <i data-lucide="eye"></i>
+                        Ce Date Colectăm
+                    </h2>
+                </div>
+                <div class="card-content">
+                    <div style="display: grid; gap: 1rem;">
+                        <div style="border-left: 4px solid #2563eb; padding-left: 1rem;">
+                            <h4>Date de Contact</h4>
+                            <ul style="margin: 0.5rem 0; padding-left: 1rem; font-size: 0.875rem; color: #6b7280;">
+                                <li>Nume și prenume</li>
+                                <li>Număr de telefon</li>
+                                <li>Adresa de email</li>
+                                <li>Adresa fizică (pentru servicii)</li>
+                            </ul>
+                        </div>
+
+                        <div style="border-left: 4px solid #16a34a; padding-left: 1rem;">
+                            <h4>Date de Servicii</h4>
+                            <ul style="margin: 0.5rem 0; padding-left: 1rem; font-size: 0.875rem; color: #6b7280;">
+                                <li>Tipul serviciului solicitat</li>
+                                <li>Detalii despre problemă</li>
+                                <li>Istoricul serviciilor</li>
+                                <li>Preferințe de programare</li>
+                            </ul>
+                        </div>
+
+                        <div style="border-left: 4px solid #ea580c; padding-left: 1rem;">
+                            <h4>Date Tehnice</h4>
+                            <ul style="margin: 0.5rem 0; padding-left: 1rem; font-size: 0.875rem; color: #6b7280;">
+                                <li>Adresa IP</li>
+                                <li>Tipul browserului</li>
+                                <li>Cookie-uri și tehnologii similare</li>
+                                <li>Paginile vizitate pe site</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Usage -->
+            <div class="privacy-card">
+                <div class="card-header">
+                    <h2>
+                        <i data-lucide="file-text"></i>
+                        Cum Utilizăm Datele
+                    </h2>
+                </div>
+                <div class="card-content">
+                    <div class="contact-grid">
+                        <div>
+                            <h4>Scopuri Principale:</h4>
+                            <ul style="font-size: 0.875rem; color: #6b7280; margin-top: 0.75rem;">
+                                <li>✓ Furnizarea serviciilor solicitate</li>
+                                <li>✓ Comunicarea cu clienții</li>
+                                <li>✓ Programarea intervențiilor</li>
+                                <li>✓ Facturarea și contabilitatea</li>
+                                <li>✓ Suportul clienților</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Scopuri Secundare:</h4>
+                            <ul style="font-size: 0.875rem; color: #6b7280; margin-top: 0.75rem;">
+                                <li>• Îmbunătățirea serviciilor</li>
+                                <li>• Analize statistice</li>
+                                <li>• Marketing direct (cu consimțământ)</li>
+                                <li>• Respectarea obligațiilor legale</li>
+                                <li>• Prevenirea fraudelor</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Legal Basis -->
+            <div class="privacy-card">
+                <div class="card-header">
+                    <h2>
+                        <i data-lucide="lock"></i>
+                        Temeiuri Legale pentru Prelucrare
+                    </h2>
+                </div>
+                <div class="card-content">
+                    <div style="display: grid; gap: 1rem;">
+                        <div style="background: #f9fafb; padding: 1rem; border-radius: 0.5rem;">
+                            <h4>Executarea Contractului</h4>
+                            <p style="font-size: 0.875rem; color: #6b7280; margin: 0.5rem 0 0 0;">
+                                Prelucrăm datele pentru a executa contractul de servicii încheiat cu dumneavoastră.
+                            </p>
+                        </div>
+                        <div style="background: #f9fafb; padding: 1rem; border-radius: 0.5rem;">
+                            <h4>Consimțământul</h4>
+                            <p style="font-size: 0.875rem; color: #6b7280; margin: 0.5rem 0 0 0;">
+                                Pentru marketing și cookie-uri non-esențiale, ne bazăm pe consimțământul dumneavoastră explicit.
+                            </p>
+                        </div>
+                        <div style="background: #f9fafb; padding: 1rem; border-radius: 0.5rem;">
+                            <h4>Interesul Legitim</h4>
+                            <p style="font-size: 0.875rem; color: #6b7280; margin: 0.5rem 0 0 0;">
+                                Pentru îmbunătățirea serviciilor și securitatea sistemelor noastre.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Retention -->
+            <div class="privacy-card">
+                <div class="card-header">
+                    <h2>
+                        <i data-lucide="calendar"></i>
+                        Perioada de Păstrare a Datelor
+                    </h2>
+                </div>
+                <div class="card-content">
+                    <div style="overflow-x: auto;">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Tipul Datelor</th>
+                                    <th>Perioada de Păstrare</th>
+                                    <th>Motivul</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Date de contact</td>
+                                    <td>5 ani după ultimul serviciu</td>
+                                    <td>Obligații fiscale</td>
+                                </tr>
+                                <tr>
+                                    <td>Istoricul serviciilor</td>
+                                    <td>10 ani</td>
+                                    <td>Garanții și reclamații</td>
+                                </tr>
+                                <tr>
+                                    <td>Date de marketing</td>
+                                    <td>Până la retragerea consimțământului</td>
+                                    <td>Consimțământ</td>
+                                </tr>
+                                <tr>
+                                    <td>Cookie-uri</td>
+                                    <td>Maxim 2 ani</td>
+                                    <td>Funcționalitate site</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rights -->
+            <div class="privacy-card">
+                <div class="card-header">
+                    <h2>
+                        <i data-lucide="shield"></i>
+                        Drepturile Dumneavoastră GDPR
+                    </h2>
+                </div>
+                <div class="card-content">
+                    <div class="rights-grid">
+                        <div class="right-item">
+                            <h4>Dreptul de Acces</h4>
+                            <p>Să știți ce date avem despre dumneavoastră</p>
+                        </div>
+                        <div class="right-item">
+                            <h4>Dreptul de Rectificare</h4>
+                            <p>Să corectați datele incorecte</p>
+                        </div>
+                        <div class="right-item">
+                            <h4>Dreptul de Ștergere</h4>
+                            <p>Să solicitați ștergerea datelor</p>
+                        </div>
+                        <div class="right-item">
+                            <h4>Dreptul de Portabilitate</h4>
+                            <p>Să primiți datele într-un format structurat</p>
+                        </div>
+                        <div class="right-item">
+                            <h4>Dreptul de Opoziție</h4>
+                            <p>Să vă opuneți prelucrării pentru marketing</p>
+                        </div>
+                        <div class="right-item">
+                            <h4>Dreptul de Restricționare</h4>
+                            <p>Să limitați prelucrarea în anumite condiții</p>
+                        </div>
+                    </div>
+                    <div class="highlight-box">
+                        <p>
+                            <strong>Pentru exercitarea drepturilor:</strong> Contactați-ne la dpo@drainmaster.ro sau +40 123 456 789. Vom răspunde în maxim 30 de zile.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="privacy-card">
+                <div class="card-header">
+                    <h2>Contact pentru Protecția Datelor</h2>
+                </div>
+                <div class="card-content">
+                    <div class="contact-grid">
+                        <div>
+                            <h4>Pentru întrebări despre confidențialitate:</h4>
+                            <div class="contact-item">
+                                <i data-lucide="mail"></i>
+                                <span>dpo@drainmaster.ro</span>
+                            </div>
+                            <div class="contact-item">
+                                <i data-lucide="phone"></i>
+                                <span>+40 123 456 789</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4>Autoritatea de Supraveghere:</h4>
+                            <div style="font-size: 0.875rem; color: #6b7280;">
+                                <p>Autoritatea Națională de Supraveghere</p>
+                                <p>a Prelucrării Datelor cu Caracter Personal</p>
+                                <p>www.dataprotection.ro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Initialize Lucide icons
+        document.addEventListener('DOMContentLoaded', function() {
+            lucide.createIcons();
+            
+            // Set current date
+            const currentDate = new Date().toLocaleDateString('ro-RO');
+            document.getElementById('currentDate').textContent = currentDate;
+            document.getElementById('currentDate2').textContent = currentDate;
+        });
+    </script>
+</body>
+</html>

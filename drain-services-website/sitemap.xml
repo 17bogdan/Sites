@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Homepage - Highest Priority -->
+    <url>
+        <loc>https://your-domain.ro/</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Main Service Pages -->
+    <url>
+        <loc>https://your-domain.ro/desfundari-gorj</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/vidanjare-fose-septice-gorj</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/servicii-urgenta-gorj</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Location-Specific Pages (High Priority for Local SEO) -->
+    <url>
+        <loc>https://your-domain.ro/desfundari-targu-jiu</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/desfundari-motru</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/desfundari-rovinari</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/desfundari-turceni</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/desfundari-tismana</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/desfundari-novaci</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/desfundari-bumbesti-jiu</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/vidanjare-targu-jiu</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/vidanjare-motru</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog/Content Pages for SEO -->
+    <url>
+        <loc>https://your-domain.ro/blog/desfundari-gorj-ghid-complet</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/blog/probleme-comune-canalizari-gorj</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/blog/preturi-desfundari-gorj</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/blog/cum-previi-blocarea-canalizarilor</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/blog/cand-chemi-specialist-desfundari</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/blog/servicii-urgenta-gorj-24-7</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Service Detail Pages -->
+    <url>
+        <loc>https://your-domain.ro/servicii/desfundare-canalizari</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/servicii/vidanjare-fose-septice</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/servicii/curatare-conducte</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/servicii/inspectie-camera</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Information Pages -->
+    <url>
+        <loc>https://your-domain.ro/despre-noi</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/contact</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/zone-deservite</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/intrebari-frecvente</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/testimoniale</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/galerie-foto</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.4</priority>
+    </url>
+
+    <!-- Legal Pages -->
+    <url>
+        <loc>https://your-domain.ro/privacy-policy</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/termeni-conditii</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <!-- Emergency Landing Pages -->
+    <url>
+        <loc>https://your-domain.ro/urgente-canalizari-gorj</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/desfundari-weekend-gorj</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://your-domain.ro/desfundari-noaptea-gorj</loc>
+        <lastmod>2024-12-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>
